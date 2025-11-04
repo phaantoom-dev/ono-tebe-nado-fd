@@ -72,7 +72,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 757px;
-    margin-bottom: 150px;
+    margin-bottom: 175px;
 }
 .overlay {
     position: absolute;
@@ -158,7 +158,7 @@ header {
     height: 723px;
     width: 1052px;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 125px;
 }
 .h1_edit {
     position: relative;
@@ -312,7 +312,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     height: 180px;
 }
-.phone_email_footer{
+.phone_email_footer {
     display: flex;
     flex-direction: column;
     align-items: start;
