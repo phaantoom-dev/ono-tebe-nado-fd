@@ -1,7 +1,7 @@
 /*ШАПКА*/
 header {
     display: grid;
-    grid-template-columns: 420px auto 40%;
+    grid-template-columns: 460px auto 290px;
     grid-template-rows: 293px;
 }
 .list_header {
@@ -14,6 +14,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 .header__links-list-item_no-bullit {
     display: list-item;
@@ -37,9 +38,10 @@ header {
     text-underline-offset: 4px;
 }
 .header__logo-image {
+    display: flex;
     height: 105px;
     width: 148px;
-    justify-self: center;
+    margin-left: 20px;
     align-self: center;
 }
 .contact_main {
@@ -67,7 +69,6 @@ header {
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
     background-image: url(/images/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -85,9 +86,7 @@ header {
     position: relative;
     height: 385px;
     width: 1000px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    margin-top: 165px;
 }
 .aligned-text {
     position: absolute;
@@ -106,29 +105,30 @@ header {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    align-self: start;
+    letter-spacing: 30%;
 }
 .aligned-text_center {
     grid-column: 2;
     grid-row: 2;
     justify-self: center;
     align-self: center;
+    letter-spacing: 30%;
 }
 .aligned-text_right {
     grid-column: 3;
     grid-row: 3;
     justify-self: end;
     align-self: end;
+    letter-spacing: 30%;
 }
 .cover__description {
     height: 51px;
     width: 1000px;
     position: absolute;
     display: flex;
-    justify-content: start;
-    align-items: center;
-    align-self: end;
+    margin-top: 656px;
     margin-bottom: 25px;
+    align-items: center;
 }
 .cover__description-text {
     position: absolute;
