@@ -123,10 +123,18 @@ header {
     line-height: 28px;
     text-transform: uppercase;
     color: white;
-    word-spacing: 20px;
 }
 .letter-spacing-extended {
     letter-spacing: 1.1em;
+}
+.letter-spacing-extended2 {
+    letter-spacing: 0.8em;
+}
+.letter-spacing-extended3 {
+    letter-spacing: 0.9em;
+}
+.wordspacing {
+    word-spacing: 20px;
 }
 .bet-button {
     position: absolute;
