@@ -1,7 +1,7 @@
 /*ШАПКА*/
 header {
     display: grid;
-    grid-template-columns: 460px auto 290px;
+    grid-template-columns: 460px auto 300px;
     grid-template-rows: 293px;
 }
 .list_header {
@@ -45,7 +45,7 @@ header {
     align-self: center;
 }
 .contact_main {
-    justify-self: end;
+    margin-left: 10px;
     align-self: center;
     width: 240px;
     font-family: Raleway;
@@ -73,7 +73,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 757px;
-    margin-bottom: 175px;
+    margin-bottom: 180px;
 }
 .overlay {
     position: absolute;
@@ -98,28 +98,25 @@ header {
     font-size: 100px;
     font-weight: bold;
     color: white;
-    letter-spacing: 30%;
     z-index: 2;
+    letter-spacing: 30px;
 }
 .aligned-text_left {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    letter-spacing: 30%;
 }
 .aligned-text_center {
     grid-column: 2;
     grid-row: 2;
     justify-self: center;
     align-self: center;
-    letter-spacing: 30%;
 }
 .aligned-text_right {
     grid-column: 3;
     grid-row: 3;
     justify-self: end;
     align-self: end;
-    letter-spacing: 30%;
 }
 .cover__description {
     height: 51px;
@@ -137,7 +134,7 @@ header {
     color: white;
     font-size: 24px;
     text-transform: uppercase;
-    word-spacing: 8px;
+    word-spacing: 12px;
 }
 .bet-button {
     height: 51px;
@@ -145,7 +142,7 @@ header {
     margin-left: auto;
     font-family: Raleway;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
     background: none;
     color: white;
