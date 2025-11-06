@@ -66,6 +66,82 @@ header {
 }
 /*MAIN*/
 .cover {
+    position: relative;
+    min-height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+}
+.cover__title {
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+.aligned-text {
+    display: block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 30px;
+    line-height: 115px;
+}
+.aligned-text_left {
+    margin-top: 165px;
+    margin-left: 50px;
+}
+.aligned-text_center {
+    margin-top: 20px;
+    margin-left: 380.5px;
+
+}
+.aligned-text_right {
+    margin-top: 20px;
+    margin-left: 663px;
+
+}
+.cover__description {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1000px;
+    height: 51px;
+    margin-top: 656px;
+    margin-left: 50px;
+}
+.cover__description-text {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 20px;
+}
+.letter-spacing-extended {
+    letter-spacing: 1.1em;
+}
+.bet-button {
+    position: absolute;
+    height: 51px;
+    width: 256px;
+    margin-left: 744px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 22px;
+}
+/*.cover {
     display: flex;
     position: relative;
     justify-content: center;
@@ -83,40 +159,35 @@ header {
     opacity: 60%;
 }
 .cover__title {
-    position: relative;
+    display: block;
     height: 385px;
     width: 1000px;
     margin-top: 165px;
-}
-.aligned-text {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 333px 333px 334px;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 100%;
     font-family: Raleway;
-    font-size: 100px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     z-index: 2;
-    letter-spacing: 30px;
+}
+.aligned-text {
+    display: block;
+    z-index: 2;
+    font-family: Raleway;
+    font-size: 100px;
+    letter-spacing: 20px;
+    line-height: 115px;
+    font-weight: 700;
 }
 .aligned-text_left {
-    grid-column: 1;
-    grid-row: 1;
-    justify-self: start;
+
 }
 .aligned-text_center {
-    grid-column: 2;
-    grid-row: 2;
-    justify-self: center;
-    align-self: center;
+    margin: auto 0;
 }
 .aligned-text_right {
     grid-column: 3;
     grid-row: 3;
     justify-self: end;
-    align-self: end;
 }
 .cover__description {
     height: 51px;
@@ -149,6 +220,9 @@ header {
     border: 1px solid white;
     cursor: pointer;
 }
+    */
+
+
 .lots {
     display: flex;
     position: relative;
