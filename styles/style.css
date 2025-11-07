@@ -182,7 +182,7 @@ header {
     background-size: cover;
 }
 .frame1 {
-    left:0;
+    left:0px;
     background-image: url(/images/card-lot-01.jpg);
 }
 .frame2 {  
@@ -190,15 +190,15 @@ header {
     background-image: url(/images/card-lot-02.jpg);
 }
 .frame3 {
-    right: 0;
+    right: 0px;
     background-image: url(/images/card-lot-03.jpg);
 }
-.frame_opacity {
+/*.frame_opacity {
     background-color: black;
     height: 596px;
     width: 334px;
     opacity: 60%;
-}
+} */
 .p_lots_main_style {
     font-family: Raleway;
     font-weight: 700;
@@ -273,7 +273,7 @@ header {
     display: grid;
     grid-template-columns: 334px auto;
     column-gap: 27.5px;
-    margin-bottom: 175px; /*e312312*/
+    margin-bottom: 185px; /*e312312*/
 }
 .about__logo {
     background-color: black;
@@ -322,6 +322,9 @@ footer {
     flex-direction: column;
     align-items: start;
     list-style: none;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
 }
 .footer__menu {
     display: flex;
@@ -332,9 +335,6 @@ footer {
     font-size: 18px;
 }
 .footer__menu-list {
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 18px;
     text-align: center;
     list-style: none;
     text-transform: lowercase;
