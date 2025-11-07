@@ -272,8 +272,8 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 334px auto;
-    column-gap: 28px;
-    margin-bottom: 150px;
+    column-gap: 27px;
+    margin-bottom: 200px; /*e312312*/
 }
 .about__logo {
     background-color: black;
@@ -312,8 +312,10 @@ header {
 }
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 265px 164px 240px;
     height: 180px;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 .phone_email_footer {
     display: flex;
