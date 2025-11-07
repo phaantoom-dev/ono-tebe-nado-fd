@@ -253,7 +253,7 @@ header {
     line-height: 120%;
 }
 .lots__look-more-link {
-    margin-top: 698px;
+    margin-top: 705px;
     margin-left: 40px;
     font-family: Raleway;
     font-style: normal;
@@ -272,7 +272,7 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 334px auto;
-    column-gap: 27px;
+    column-gap: 28px;
     margin-bottom: 150px;
 }
 .about__logo {
