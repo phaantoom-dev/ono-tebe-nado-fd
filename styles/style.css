@@ -272,8 +272,8 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 334px auto;
-    column-gap: 27px;
-    margin-bottom: 200px; /*e312312*/
+    column-gap: 27.5px;
+    margin-bottom: 175px; /*e312312*/
 }
 .about__logo {
     background-color: black;
@@ -327,6 +327,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: start;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
 }
 .footer__menu-list {
     font-family: Raleway;
