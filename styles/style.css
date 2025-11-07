@@ -71,6 +71,7 @@ header {
     background-image: url(/images/cover.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 175px;
 }
 .overlay {
     position: absolute;
@@ -127,10 +128,10 @@ header {
 .letter-spacing-extended {
     letter-spacing: 1.1em;
 }
-.letter-spacing-extended2 {
+.letter-spacing-extended_8 {
     letter-spacing: 0.8em;
 }
-.letter-spacing-extended3 {
+.letter-spacing-extended_9 {
     letter-spacing: 0.9em;
 }
 .wordspacing {
@@ -149,88 +150,6 @@ header {
     font-weight: 500;
     font-size: 22px;
 }
-/*.cover {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    background-image: url(/images/cover.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 757px;
-    margin-bottom: 180px;
-}
-.overlay {
-    position: absolute;
-    background-color: black;
-    height: 757px;
-    width: 1100px;
-    opacity: 60%;
-}
-.cover__title {
-    display: block;
-    height: 385px;
-    width: 1000px;
-    margin-top: 165px;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    z-index: 2;
-}
-.aligned-text {
-    display: block;
-    z-index: 2;
-    font-family: Raleway;
-    font-size: 100px;
-    letter-spacing: 20px;
-    line-height: 115px;
-    font-weight: 700;
-}
-.aligned-text_left {
-
-}
-.aligned-text_center {
-    margin: auto 0;
-}
-.aligned-text_right {
-    grid-column: 3;
-    grid-row: 3;
-    justify-self: end;
-}
-.cover__description {
-    height: 51px;
-    width: 1000px;
-    position: absolute;
-    display: flex;
-    margin-top: 656px;
-    margin-bottom: 25px;
-    align-items: center;
-}
-.cover__description-text {
-    position: absolute;
-    font-family: Raleway;
-    font-weight: 400;
-    color: white;
-    font-size: 24px;
-    text-transform: uppercase;
-    word-spacing: 12px;
-}
-.bet-button {
-    height: 51px;
-    width: 256px;
-    margin-left: auto;
-    font-family: Raleway;
-    font-weight: 500;
-    font-size: 22px;
-    text-transform: uppercase;
-    background: none;
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
-}
-    */
-
-
 .lots {
     display: flex;
     position: relative;
@@ -240,6 +159,9 @@ header {
     margin-bottom: 125px;
 }
 .h1_edit {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
     position: relative;
     margin-left: 40px;
 }
@@ -249,6 +171,7 @@ header {
     position: absolute;
     height: 596px;
     width: 1052px;
+    margin-top: 15px;
 }
 .frame1, .frame2, .frame3 {
     display: flex;
