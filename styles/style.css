@@ -185,7 +185,7 @@ header {
     left:0px;
     background-image: url(/images/card-lot-01.jpg);
 }
-.frame2 {  
+.frame2 {
     right: 359px;
     background-image: url(/images/card-lot-02.jpg);
 }
@@ -263,8 +263,6 @@ header {
     text-transform: lowercase;
     text-decoration: underline;
     text-underline-offset: 5px;
-
-
 }
 .about {
     width: 1052px;
@@ -273,7 +271,7 @@ header {
     display: grid;
     grid-template-columns: 334px auto;
     column-gap: 27.5px;
-    margin-bottom: 185px; /*e312312*/
+    margin-bottom: 180px; /*e312312*/
 }
 .about__logo {
     background-color: black;
