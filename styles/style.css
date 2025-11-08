@@ -8,11 +8,11 @@ header {
 }
 .list_header {
   display: flex;
-  gap: 2em;
+  justify-content: space-between;
+  gap: 30px;
 }
 .header__menu {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-left: 50px;
 }
@@ -44,23 +44,24 @@ header {
   margin-left: 20px;
   align-self: center;
 }
-.contact_main {
-  margin-left: 10px;
-  align-self: center;
-  width: 240px;
+address {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   font-style: normal;
 }
-.phone_email {
-  list-style-type: none;
+.header__address {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    align-items: flex-start;
+    margin-top: 95px;
+
+
 }
-.contact_edit {
-  text-underline-offset: 5px;
-}
-.header_address {
-  font-style: normal;
+a {
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 /*MAIN*/
 .cover {
