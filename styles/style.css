@@ -8,12 +8,11 @@ header {
 }
 .list_header {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
 }
 .header__menu {
   display: flex;
-  align-items: center;
+  margin-top: 133px;
   margin-left: 50px;
 }
 .header__links-list-item_no-bullit {
@@ -56,8 +55,7 @@ address {
     max-width: 240px;
     align-items: flex-start;
     margin-top: 95px;
-
-
+    margin-left: 10px;
 }
 a {
     text-decoration: underline;
