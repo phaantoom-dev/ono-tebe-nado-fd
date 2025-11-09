@@ -49,21 +49,21 @@ address {
   font-style: normal;
 }
 .header__address {
-    display: flex;
-    flex-direction: column;
-    max-width: 240px;
-    align-items: flex-start;
-    margin: 95px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  align-items: flex-start;
+  margin: 95px 0 0 10px;
 }
 a {
-    text-decoration: underline;
-    text-underline-offset: 4.5px;
+  text-decoration: underline;
+  text-underline-offset: 4.5px;
 }
 /*MAIN*/
 .cover {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
@@ -80,7 +80,6 @@ a {
   opacity: 60%;
 }
 .cover__title {
-
   z-index: 1;
   color: white;
 }
@@ -92,20 +91,20 @@ a {
   line-height: 115px;
 }
 .aligned-text_left {
-    margin: 165px 0 0 50px;
+  margin: 165px 0 0 50px;
 }
 .aligned-text_center {
-    margin: 20px 0 0 380.5px;
+  margin: 20px 0 0 380.5px;
 }
 .aligned-text_right {
-    margin: 20px 0 0 663px;
+  margin: 20px 0 0 663px;
 }
 .cover__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1000px;
-  margin: 110px 0 46px 50px;
+  margin: 105px 0 51px 50px;
   z-index: 1;
 }
 .cover__description-text {
@@ -139,19 +138,19 @@ a {
   font-size: 22px;
 }
 .lots {
-    width: 1052px;
-    font-family: Raleway, Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: 400;
-    margin: 0 0 120px 24px;
+  width: 1052px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 400;
+  margin: 0 0 120px 24px;
 }
 .lots__heading {
-    text-transform: uppercase;
-    color: black;
-    margin-left: 40px;
-    font-size: 40px;
-    font-weight: 700;
-    font-style: bold;
+  text-transform: uppercase;
+  color: black;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: bold;
 }
 .lots__card-list {
   display: flex;
@@ -162,56 +161,55 @@ a {
   margin-top: 32px;
 }
 .lots__card-list-item {
-    width: 334px;
-    min-height: 596px;
-    margin-bottom: 30px;
+  width: 334px;
+  min-height: 596px;
+  margin-bottom: 30px;
 }
 .card-link {
-    display: block;
-    height: 100%;
-    text-decoration: none;
+  display: block;
+  height: 100%;
+  text-decoration: none;
 }
 .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
 }
 .card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 .card_type_book {
-    background-image: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
-    background-image: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 .card__title {
-    z-index: 1;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    margin: 48px 40px 0 40px;
-
+  z-index: 1;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin: 48px 40px 0 40px;
 }
 .card__text {
-    font-size: 20px;
-    z-index: 1;
-    margin: 0 40px 50px 40px;
-    line-height: 1.2em;
+  font-size: 20px;
+  z-index: 1;
+  margin: 0 40px 50px 40px;
+  line-height: 1.2em;
 }
 .lots__look-more-link {
-    color: black;
-    font-size: 20px;
-    text-transform: lowercase;
-    margin-left: 40px;
-    text-underline-offset: 5px;
+  color: black;
+  font-size: 20px;
+  text-transform: lowercase;
+  margin-left: 40px;
+  text-underline-offset: 5px;
 }
 .about {
   width: 1052px;
@@ -255,6 +253,7 @@ a {
   font-size: 20px;
   line-height: 24px;
 }
+/*footer*/
 footer {
   display: grid;
   grid-template-columns: 265px 164px 240px;
