@@ -63,9 +63,12 @@ a {
 }
 /*MAIN*/
 .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   position: relative;
   min-height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 175px;
@@ -79,7 +82,7 @@ a {
   opacity: 60%;
 }
 .cover__title {
-  position: absolute;
+
   z-index: 1;
   color: white;
 }
@@ -104,12 +107,13 @@ a {
 }
 .cover__description {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  position: absolute;
   width: 1000px;
-  height: 51px;
-  margin-top: 656px;
+  margin-top: 110px;
   margin-left: 50px;
+  margin-bottom: 50px;
+  z-index: 1;
 }
 .cover__description-text {
   font-weight: 400;
@@ -132,12 +136,10 @@ a {
   word-spacing: 18px;
 }
 .bet-button {
-  position: absolute;
   height: 51px;
   width: 256px;
-  margin-left: 744px;
   background: none;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   color: white;
   text-transform: uppercase;
   font-weight: 500;
@@ -187,13 +189,13 @@ a {
     justify-content: space-between;
 }
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 .card__title {
     z-index: 1;
@@ -221,7 +223,6 @@ a {
 }
 .about {
   width: 1052px;
-  height: 595px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 334px auto;
@@ -265,12 +266,12 @@ a {
 footer {
   display: grid;
   grid-template-columns: 265px 164px 240px;
-  height: 180px;
   justify-content: space-between;
   padding: 0 50px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 85px;
 }
 .phone_email_footer {
   display: flex;
