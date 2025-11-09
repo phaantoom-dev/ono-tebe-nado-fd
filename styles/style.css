@@ -280,7 +280,7 @@ footer {
 }
 .footer__menu {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 }
 .footer__menu-list {
