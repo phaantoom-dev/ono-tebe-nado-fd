@@ -71,6 +71,7 @@ a {
   background-position: center;
   margin-bottom: 175px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
+  inset: 0;
 }
 .overlay {
   position: absolute;
